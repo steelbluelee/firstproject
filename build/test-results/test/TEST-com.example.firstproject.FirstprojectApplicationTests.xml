@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.firstproject.FirstprojectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-17T05:11:42" hostname="TwelfthMoon" time="0.351">
+<testsuite name="com.example.firstproject.FirstprojectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-18T05:22:19" hostname="TwelfthMoon" time="0.32">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.firstproject.FirstprojectApplicationTests" time="0.351"/>
-  <system-out><![CDATA[14:11:40.560 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.firstproject.FirstprojectApplicationTests]: FirstprojectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:11:40.607 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.firstproject.FirstprojectApplication for test class com.example.firstproject.FirstprojectApplicationTests
+  <testcase name="contextLoads()" classname="com.example.firstproject.FirstprojectApplicationTests" time="0.32"/>
+  <system-out><![CDATA[14:22:17.983 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.firstproject.FirstprojectApplicationTests]: FirstprojectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:22:18.031 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.firstproject.FirstprojectApplication for test class com.example.firstproject.FirstprojectApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,23 +13,24 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.2)
 
-2023-08-17T14:11:40.815+09:00  INFO 21631 --- [    Test worker] c.e.f.FirstprojectApplicationTests       : Starting FirstprojectApplicationTests using Java 17.0.8 with PID 21631 (started by sklee in /home/sklee/workspace/firstproject)
-2023-08-17T14:11:40.816+09:00  INFO 21631 --- [    Test worker] c.e.f.FirstprojectApplicationTests       : No active profile set, falling back to 1 default profile: "default"
-2023-08-17T14:11:41.165+09:00  INFO 21631 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-08-17T14:11:41.176+09:00  INFO 21631 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
-2023-08-17T14:11:41.393+09:00  INFO 21631 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-08-17T14:11:41.486+09:00  INFO 21631 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:09d7ebbe-bdec-4a62-8dc4-29d6b9af835c user=SA
-2023-08-17T14:11:41.487+09:00  INFO 21631 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-08-17T14:11:41.514+09:00  INFO 21631 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-08-17T14:11:41.540+09:00  INFO 21631 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
-2023-08-17T14:11:41.541+09:00  INFO 21631 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
-2023-08-17T14:11:41.625+09:00  INFO 21631 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-08-17T14:11:41.688+09:00  INFO 21631 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-08-17T14:11:41.749+09:00  INFO 21631 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-08-17T14:11:41.852+09:00  INFO 21631 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-08-17T14:11:41.855+09:00  INFO 21631 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-08-17T14:11:41.936+09:00  WARN 21631 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-08-17T14:11:42.197+09:00  INFO 21631 --- [    Test worker] c.e.f.FirstprojectApplicationTests       : Started FirstprojectApplicationTests in 1.518 seconds (process running for 2.03)
+2023-08-18T14:22:18.238+09:00  INFO 40084 --- [    Test worker] c.e.f.FirstprojectApplicationTests       : Starting FirstprojectApplicationTests using Java 17.0.8 with PID 40084 (started by sklee in /home/sklee/workspace/firstproject)
+2023-08-18T14:22:18.239+09:00  INFO 40084 --- [    Test worker] c.e.f.FirstprojectApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T14:22:18.565+09:00  INFO 40084 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T14:22:18.598+09:00  INFO 40084 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2023-08-18T14:22:18.833+09:00  INFO 40084 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-18T14:22:18.923+09:00  INFO 40084 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:7ad73eb3-4738-47cf-8c4c-50c2d24305cc user=SA
+2023-08-18T14:22:18.924+09:00  INFO 40084 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-18T14:22:18.949+09:00  INFO 40084 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T14:22:18.974+09:00  INFO 40084 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-18T14:22:18.975+09:00  INFO 40084 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-18T14:22:19.048+09:00  INFO 40084 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T14:22:19.108+09:00  INFO 40084 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T14:22:19.233+09:00  INFO 40084 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T14:22:19.416+09:00  INFO 40084 --- [    Test worker] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.example.firstproject.entity.Article (class must be instantiated by Interceptor)
+2023-08-18T14:22:19.495+09:00  INFO 40084 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T14:22:19.512+09:00  INFO 40084 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T14:22:19.705+09:00  WARN 40084 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T14:22:19.930+09:00  INFO 40084 --- [    Test worker] c.e.f.FirstprojectApplicationTests       : Started FirstprojectApplicationTests in 1.826 seconds (process running for 2.375)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
