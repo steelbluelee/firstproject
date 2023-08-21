@@ -1,5 +1,7 @@
 package com.example.firstproject.controller;
 
+import java.util.ArrayList;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -31,7 +33,7 @@ public class ArticleController {
     log.info(article.toString());
     Article saved = articleRepository.save(article);
     log.info(saved.toString());
-    return "";
+    return "redirect:/articles/" + saved.getId();
   }
 
   @GetMapping("/articles/{id}")
@@ -41,5 +43,25 @@ public class ArticleController {
     log.info(articleEntity.toString());
     model.addAttribute("article", articleEntity);
     return "articles/show";
+  }
+
+  @GetMapping("/articles")
+  public String index(Model model) {
+    ArrayList<Article> articleEntityList = articleRepository.findAll();
+    model.addAttribute("articleList", articleEntityList);
+    return "articles/index";
+  }
+
+  @GetMapping("/articles/{id}/edit")
+  public String edit(@PathVariable Long id, Model model) {
+    Article articleEntity = articleRepository.findById(id).orElse(null);
+    model.addAttribute("article", articleEntity);
+    return "articles/edit";
+  }
+
+  @PostMapping("/articles/update")
+  public String update() {
+
+    return "";
   }
 }
