@@ -23,4 +23,10 @@ public class Article {
   private String title;
   @Column
   private String content;
+
+  public Article patch(Article newArticle) {
+    return new Article(id,
+        newArticle.title != null ? newArticle.title : this.title,
+        newArticle.content != null ? newArticle.content : this.content);
+  }
 }
