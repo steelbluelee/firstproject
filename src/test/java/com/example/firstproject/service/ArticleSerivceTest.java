@@ -28,6 +28,18 @@ public class ArticleSerivceTest {
     List<Article> expected = new ArrayList<Article>(Arrays.asList(a, b, c));
 
     assertEquals(expected.toString(), articles.toString());
+  }
+
+  @Test
+  void show_성공() {
+    long id = 9999991L;
+    Article expected = new Article(id, "가가가가", "1111");
+    Article article = articleService.show(id);
+    assertEquals(expected.toString(), article.toString());
+  }
+
+  @Test
+  void show_실패() {
 
   }
 }
